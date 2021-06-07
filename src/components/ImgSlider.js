@@ -10,7 +10,7 @@ export default class SimpleSlider extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1
     };
@@ -22,6 +22,8 @@ export default class SimpleSlider extends Component {
                 <img className="sliderHome__image" src="/images/amazon-banner-3.jpg" alt="prime video banner 3"/>
                 <img className="sliderHome__image" src="/images/amazon-banner-4.jpg" alt="prime video banner 4"/>
                 <img className="sliderHome__image" src="/images/amazon-banner-5.jpg" alt="prime video banner 5"/>
+                <img className="sliderHome__image" src="/images/amazon-banner-6.jpg" alt="prime video banner 6"/>
+                <img className="sliderHome__image" src="/images/amazon-banner-7.jpg" alt="prime video banner 7"/>
             </Slider>
         </div>
     );
