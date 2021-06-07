@@ -1,5 +1,41 @@
 .submenu {
-    height: 35px;
+    height: 45px;
     width: 100%;
     background-color: #23303E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu__list {
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.submenu__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    position: relative;
+}
+
+.submenu__list li {
+    text-align: center;
+    padding: 5px 6px;
+    border: solid 1px transparent;
+    margin-right: 20px;
+}
+
+
+.submenu__list li:hover {
+    border: solid 1px white;
 }
