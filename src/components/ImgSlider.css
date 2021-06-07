@@ -1,0 +1,38 @@
+.slider__image {
+    overflow: hidden;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__sliderImage {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.slick-slider {
+    position: relative;
+    width: 80%;
+}
+.slick-prev {
+    position: absolute;
+    left: 30px;
+    top: 20%;
+    
+    z-index: 100;
+}
+.slick-next {
+    position: absolute;
+    right: 55px;
+    top: 20%;
+    z-index: 100;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px;
+    color: black;
+}
+
