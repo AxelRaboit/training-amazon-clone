@@ -9,6 +9,7 @@ function Checkout() {
                 <img
                     className="checkout__pub"
                     src="/images/checkout/banner/amazon-pub-checkoutbanner.png"
+                    alt="checkout banner pub"
                 />
 
                 <div>
