@@ -30,14 +30,12 @@ function Product({ id, title, image, price, rating }) {
                         switch(rating) {
                             case 5:
                                 return '';
-                            break;
                             case 4:
                                 return(
                                     <div className="containerStar">
                                         <img className="star" src="/images/star/empty-star.png" alt="star" />
                                     </div>
                                 )
-                            break;
                             case 3:
                                 return(
                                     <div className="containerStar">
@@ -45,7 +43,6 @@ function Product({ id, title, image, price, rating }) {
                                         <img className="star" src="/images/star/empty-star.png" alt="star" />
                                     </div>
                                 )
-                            break;
                             case 2:
                                 return(
                                     <div className="containerStar">
@@ -54,7 +51,6 @@ function Product({ id, title, image, price, rating }) {
                                         <img className="star" src="/images/star/empty-star.png" alt="star" />
                                     </div>
                                 )
-                            break;
                             case 1:
                                 return(
                                     <div>
@@ -64,7 +60,6 @@ function Product({ id, title, image, price, rating }) {
                                         <img className="star" src="/images/star/empty-star.png" alt="star" />
                                     </div>
                                 )
-                            break;
                             default:
                                 return(
                                     <div className="containerStar">
@@ -81,7 +76,7 @@ function Product({ id, title, image, price, rating }) {
                 </div>
             </div>
 
-            <img src={image} alt="product image" />
+            <img src={image} alt="product representation" />
             <button>Ajouter au panier</button>
         </div>
     )

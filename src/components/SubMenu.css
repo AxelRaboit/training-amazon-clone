@@ -6,8 +6,33 @@
     justify-content: space-between;
 }
 
+.submenu__content__left {
+    margin-left: 15px;
+    display: flex;
+}
+
+.container__location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__icon {
+    color: white;
+}
+
+.location__name p:nth-child(1) {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.location__name p:nth-child(2) {
+    font-weight: bold;
+    color: white;
+}
+
 .submenu__list {
-    padding-left: 20px;
+    padding-left: 40px;
     display: flex;
     justify-content: center;
     align-items: center;

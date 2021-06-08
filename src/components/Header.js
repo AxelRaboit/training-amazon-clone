@@ -10,6 +10,7 @@ function Header() {
             <img 
                 className="header__logo" 
                 src='https://pngimg.com/uploads/amazon/amazon_PNG11.png'  
+                alt="header logo"
             />
 
             <div className="header__search">
