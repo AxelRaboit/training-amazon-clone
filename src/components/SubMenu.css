@@ -1,9 +1,12 @@
 .submenu {
-    height: 45px;
+    height: 38px;
     width: 100%;
     background-color: #23303E;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    z-index: 99;
+    top: 54px;
 }
 
 .submenu__content__left {
@@ -46,21 +49,55 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-right: 20px;
     color: white;
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.3em;
     position: relative;
+    border: solid 1px transparent;
+}
+
+.submenu__info:hover {
+    border: solid 1px white;
+}
+
+.amazonprime__playerButton {
+    height: 26px;
+}
+
+.playerAmazonPrime__text {
+    color: #0097d6;
+    font-weight: 750;
+    margin-left: 5px;
+}
+
+.submenu__info__separator {
+    margin: 0 5px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.submenu__info__text {
+    color: white;
 }
 
 .submenu__list li {
     text-align: center;
     padding: 5px 6px;
     border: solid 1px transparent;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 
 .submenu__list li:hover {
     border: solid 1px white;
+}
+
+@media (max-width: 1010px) {
+    .submenu__info {
+        font-size: 0.6em;
+    }
 }

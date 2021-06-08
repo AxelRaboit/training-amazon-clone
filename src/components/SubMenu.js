@@ -20,7 +20,10 @@ function SubMenu() {
             </ul>
         </div>
             <div className="submenu__info">
-                <p>Prime Day, c'est les 21 et 22 juin</p>
+                <img className="amazonprime__playerButton" src="/images/submenu/playerAmazonPrime.png" alt="amazon prime player button"/>
+                <p className="playerAmazonPrime__text">Prime Video</p>
+                <p className="submenu__info__separator">|</p>
+                <p className="submenu__info__text">Essai gratuit de 30 jours</p>
             </div>
         </div>
     )
