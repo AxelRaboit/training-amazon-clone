@@ -1,7 +1,26 @@
 import React from 'react'
 import './Product.css'
+import { useStateValues } from './StateProvider';
 
 function Product({ id, title, image, price, rating }) {
+
+    const [{ basket } , dispatch] = useStateValues();
+
+    console.log('This is the basket > ', basket)
+
+    const addToBasket = () => {
+        //Dispatch the item into the data layer
+        dispatch({
+            type: 'ADD_TO_BASKET',
+            item: {
+                id: id,
+                title: title,
+                image: image,
+                price: price,
+                rating: rating,
+            },
+        });
+    };
 
     //CONDITION IF A PRODUCT'S TITLE IS MORE THAN 170 CHARACTERES
     if(title.length > 100) {
@@ -77,7 +96,7 @@ function Product({ id, title, image, price, rating }) {
             </div>
 
             <img src={image} alt={id} />
-            <button>Ajouter au panier</button>
+            <button onClick={addToBasket}>Ajouter au panier</button>
         </div>
     )
 }
