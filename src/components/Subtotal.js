@@ -6,7 +6,7 @@ import { getBasketTotal } from './Reducer';
 
 function Subtotal() {
 
-    const[{ basket }, dispatch] = useStateValues();
+    const[{ basket }/* , dispatch */] = useStateValues();
     console.log(basket);
 
     return (
