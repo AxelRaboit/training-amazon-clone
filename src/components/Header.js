@@ -8,7 +8,7 @@ import { useStateValues } from './StateProvider';
 
 function Header() {
 
-    const[{ basket }, dispatch] = useStateValues();
+    const[{ basket }/* , dispatch */] = useStateValues();
 
     return (
         <div className="header">
