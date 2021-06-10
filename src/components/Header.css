@@ -12,11 +12,31 @@
     text-decoration: none;
 }
 
+.container__location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: solid transparent 1px;
+    padding: 5px;
+}
+
+.container__location:hover {
+    border: solid 1px white;
+}
+
 .header__logo {
     width: 100px;
     object-fit: contain;
-    margin: 0 20px;
     margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    border: solid transparent 1px;
+}
+
+.header__logo:hover {
+    border: solid white 1px;
 }
 
 .header__search {

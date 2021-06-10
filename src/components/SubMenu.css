@@ -14,12 +14,6 @@
     display: flex;
 }
 
-.container__location {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .location__icon {
     color: white;
 }

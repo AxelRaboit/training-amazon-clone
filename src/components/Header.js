@@ -5,6 +5,7 @@ import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import { Link } from "react-router-dom";
 import { useStateValues } from './StateProvider';
 import { auth } from './Firebase';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 
 function Header() {
@@ -26,6 +27,14 @@ function Header() {
                     alt="header logo"
                 />
             </Link>
+
+            <div className="container__location">
+                <LocationOnIcon className="location__icon"/>
+                <div className="location__name">
+                    <p>Livré en</p>
+                    <p>France</p>
+                </div>
+            </div>
 
             <div className="header__search">
                 <input className="header__searchInput" type="text" />

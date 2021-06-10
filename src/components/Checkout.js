@@ -7,7 +7,7 @@ import Subtotal from './Subtotal';
 function Checkout() {
 
     const [{ basket, user } /* , dispatch */] = useStateValues();
-    
+
     return (
         <div className="checkout">
             <div className="checkout__left">
@@ -22,7 +22,6 @@ function Checkout() {
                         <h3>Bonjour, {user?.email}</h3>
                         Votre panier Amazon
                     </h2>
-
                     {basket.map(item => (
                         <CheckoutProduct
                             id={item.id}
