@@ -6,10 +6,6 @@
     align-items: center;
 }
 
-.login__link {
-    text-decoration: none;
-}
-
 .login__logo {
     margin-top: 20px;
     margin-bottom: 20px;

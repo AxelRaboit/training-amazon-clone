@@ -26,7 +26,7 @@ function Header() {
             </div>
 
             <div className="header__nav">
-                <Link to='/login'>
+                <Link className="login__link" to='/login'>
                     <div className="header__option">
                         <span className="header__optionLineOne">
                             Bonjour, Identifiez-vous
