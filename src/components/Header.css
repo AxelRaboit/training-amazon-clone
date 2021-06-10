@@ -8,8 +8,22 @@
     z-index: 100;
 }
 
-.checkout__link, .login__link {
+.login__link {
     text-decoration: none;
+}
+
+.checkout__link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px transparent;
+    padding: 5px;
+    margin: 5px;
+}
+
+.checkout__link:hover {
+    border: solid 1px white;
 }
 
 .container__location {
@@ -91,4 +105,10 @@
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    padding: 5px;
+    border: solid 1px transparent;
+}
+
+.header__option:hover {
+    border: solid 1px white;
 }
