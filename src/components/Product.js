@@ -22,7 +22,7 @@ function Product({ id, title, image, price, rating }) {
         });
     };
 
-    //CONDITION IF A PRODUCT'S TITLE IS MORE THAN 170 CHARACTERES
+    //CONDITION IF A PRODUCT'S TITLE IS MORE THAN [number] CHARACTERES
     if(title.length > 100) {
         title = title.substring(0,80);
         title = title + '...'
